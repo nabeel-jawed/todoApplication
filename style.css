@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(bgMain.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.dvMAin{
+    background-color:rgba(0, 0, 0, 0.75);
+    width: 40%;
+    margin: 10px auto;
+    height: 600px;
+    text-align: center;
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    padding: 5px;
+}
+
+.todoItem{
+    margin-top: 5px;
+    width: 80%;
+    height: 40px;
+    border-radius: 7px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    padding: 10px;
+}
+.todoText{
+    width: 75% !important;
+    text-align: left !important;
+    margin-left: 10px;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-size: larger;  
+}
+.btnList{
+    background-color: rgb(71, 70, 70);
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.btnMain{
+    background-color: rgb(71, 70, 70);
+    color: white;
+    margin: 5px;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.dropdown{
+    margin-left:20px !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .dvMAin{
+         width:90%;
+       }
+     }
